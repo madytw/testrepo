@@ -16,3 +16,4 @@ jobs:
         uses: madytw/codeowners-action@main
         with:
           github-token: ${{ secrets.PACKAGE_TOKEN }}
+          my-input: 'some input'
