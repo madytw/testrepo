@@ -15,4 +15,4 @@ jobs:
       - name: Run Codeowners
         uses: madytw/codeowners-action@main
         with:
-          github-token: ${{ secrets.TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
